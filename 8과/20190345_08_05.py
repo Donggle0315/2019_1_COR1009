@@ -1,0 +1,7 @@
+x=input("Enter a sentence :").split()
+x=set(x)
+x=list(x)
+x=sorted(x)
+print("Non duplicate words (list) :", x)
+x='_'.join(x)
+print("Non duplicate words (string) :", x)
